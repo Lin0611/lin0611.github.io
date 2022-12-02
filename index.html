@@ -45,6 +45,11 @@
                             </a>
                         </li>
                         <li class="header__link-wrapper">
+                            <a href="./index.html#experience" class="header__link">
+                                Experience
+                            </a>
+                        </li>
+                        <li class="header__link-wrapper">
                             <a href="./index.html#contact" class="header__link">
                                 Contact
                             </a>
@@ -54,12 +59,12 @@
                         <img
                             src="./assets/svg/ham-menu.svg"
                             alt="hamburger menu"
-                            class="header__main-ham-menu"
+                            class="header__main-ham-menu header__link"
                         />
                         <img
                             src="./assets/svg/ham-menu-close.svg"
                             alt="hamburger menu close"
-                            class="header__main-ham-menu-close d-none"
+                            class="header__main-ham-menu-close d-none header__link"
                         />
                     </div>
                 </div>
@@ -80,6 +85,10 @@
                         </li>
 
                         <li class="header__sm-menu-link">
+                            <a href="./index.html#experience"> Experience </a>
+                        </li>
+
+                        <li class="header__sm-menu-link">
                             <a href="./index.html#contact"> Contact </a>
                         </li>
                     </ul>
@@ -92,9 +101,8 @@
                 <h1 class="heading-primary">Hello, My name is I-Ting Lin</h1>
                 <div class="home-hero__info">
                     <p class="text-primary">
-                        I'm currently looking for a Ph.D. position in Electrical
-                        Engineering focusing on VLSI design for domain-specific
-                        applications.
+                        I'm currently looking for a Ph.D. position in EECS/ECE focusing on
+                        digital circuits, VLSI systems, and computer architectures.
                     </p>
                 </div>
                 <div class="home-hero__cta">
@@ -178,9 +186,9 @@
                     <span class="heading-sec__main">About Me</span>
                     <span class="heading-sec__sub">
                         <b>
-                        My research interests are designing energy-efficient VLSI design
-                        and domain-specific computer architecture for emerging fields,
-                        including robotics, machine learning, and computer vision.
+                            My research interests are energy-efficient VLSI design and
+                            domain-specific computer architecture for emerging fields,
+                            including robotics, machine learning, and computer vision.
                         </b>
                     </span>
                 </h2>
@@ -189,15 +197,16 @@
                         <h3 class="about__content-title">Get to know me!</h3>
                         <div class="about__content-details">
                             <p class="about__content-details-para">
-                                Hey! My name is
+                                Hello! My name is
                                 <strong>I-Ting Lin</strong>
                                 and I'm a graduate student majoring in Electronics
-                                Engineering at National Taiwan University (NTU). 
+                                Engineering at National Taiwan University (NTU).
                             </p>
                             <p class="about__content-details-para">
-                                I received my B.S. in Electrical Engineering from
-                                NTU in June 2020. My cumulative GPAs for graduate school
-                                and university are <b>4.25/4.30</b> and <b>4.05/4.30</b>, respectively.
+                                I received my B.S. in Electrical Engineering from NTU in
+                                June 2020. My cumulative GPAs for graduate school and
+                                university are <b>4.25/4.30</b> and <b>4.05/4.30</b>,
+                                respectively.
                             </p>
                         </div>
                         <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
@@ -241,7 +250,7 @@
 
                 <div class="projects__content">
                     <!-- Project 1 -->
-                    <div class="projects__row">
+                    <!-- <div class="projects__row">
                         <div class="projects__row-img-cont">
                             <img
                                 src="./assets/jpeg/project-mockup-example.jpeg"
@@ -267,7 +276,7 @@
                                 >Link to paper</a
                             >
                         </div>
-                    </div>
+                    </div> -->
                     <!-- Project 2 -->
                     <div class="projects__row">
                         <div class="projects__row-img-cont">
@@ -284,9 +293,21 @@
                                 SoC for Mobile Augmented Reality
                             </h3>
                             <p class="projects__row-content-desc">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Hic facilis tempora, explicabo quae quod deserunt eius
-                                sapiente praesentium.
+                                <b>
+                                    Published in International Symposium on VLSI Circuits
+                                    (VLSI Circuits) 2022
+                                </b>
+                            </p>
+                            <p class="projects__row-content-desc">
+                                This work presents the first CNN-GCN SoC for diverse AI
+                                vision computations on mobile augmented reality (AR). A
+                                CNN engine utilizes the channel-wise feature sparsity with
+                                a specialized processing element. A GCN engine is
+                                implemented for graph-based action recognition, which
+                                leverages matrix and graph properties to minimize
+                                computational complexity. The SoC achieves
+                                <b>25.1 TOPS/W</b> energy efficiency for CNN inference,
+                                and delivers <b>72 action/s</b> on action recognition.
                             </p>
                             <a
                                 href="https://ieeexplore.ieee.org/document/9830261"
@@ -321,6 +342,188 @@
               >
             </div>
           </div> -->
+                </div>
+            </div>
+        </section>
+        <!-- Experience Section -->
+        <section id="experience" class="projects sec-pad">
+            <div class="main-container">
+                <h2 class="heading heading-sec heading-sec__mb-bg">
+                    <span class="heading-sec__main">Experience</span>
+                    <span class="heading-sec__sub">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                        facilis tempora explicabo quae quod deserunt eius sapiente
+                    </span>
+                </h2>
+
+                <div class="projects__content">
+                    <!-- Exprerience 1: CHY -->
+                    <div class="projects__row">
+                        <div class="projects__row-img-cont">
+                            <img
+                                src="./assets/jpeg/project-mockup-example.jpeg"
+                                alt="Software Screenshot"
+                                class="projects__row-img"
+                                loading="lazy"
+                            />
+                        </div>
+                        <div class="projects__row-content">
+                            <h3 class="projects__row-content-title">
+                                Graduate Student Researcher, Digital Circuits and Systems
+                                Lab, NTU
+                            </h3>
+                            <p class="projects__row-content-desc">
+                                <b>Advisor: Prof. Chia-Hsiang Yang</b>
+                            </p>
+                            <ul class="projects__row-content-desc">
+                                <li>
+                                    ● Developed a hardware-aware neural network
+                                    quantization framework (with Delta Electronics)
+                                </li>
+
+                                <ul class="projects__row-content-desc">
+                                    <li>
+                                        − Proposed a two-stage quantization scheme for
+                                        4-bit CNNs, saving memory usage by up to 87.5%
+                                    </li>
+                                    <li>
+                                        − Optimized quantized convolution for efficient
+                                        processing elements, reducing the area by 66%
+                                        <b>(honored by Delta Young Talent Award)</b>
+                                    </li>
+                                </ul>
+                                <li>
+                                    ● Implemented an embedded thermal image processing
+                                    module for privacy-preserving human detection
+                                </li>
+                                <ul class="projects__row-content-desc">
+                                    <li>
+                                        − Minimized the complexity of a super-resolution
+                                        CNN, improving 12x runtime performance
+                                    </li>
+                                    <li>
+                                        − This work is currently the finalist in the Andes
+                                        Awards 2022
+                                    </li>
+                                </ul>
+                                <li>
+                                    ● Developing a demonstration of an AI SoC platform
+                                    (with Taiwan Semiconductor Research Institute)
+                                </li>
+                            </ul>
+                            <!-- <a
+                                href="https://ieeexplore.ieee.org/document/9830261"
+                                class="btn btn--med btn--theme dynamicBgClr"
+                                target="_blank"
+                                >Link to paper</a
+                            > -->
+                        </div>
+                    </div>
+                    <!-- Exprerience 2: Ganzin -->
+                    <div class="projects__row">
+                        <div class="projects__row-img-cont">
+                            <img
+                                src="./assets/jpeg/project-mockup-example.jpeg"
+                                alt="Software Screenshot"
+                                class="projects__row-img"
+                                loading="lazy"
+                            />
+                        </div>
+                        <div class="projects__row-content">
+                            <h3 class="projects__row-content-title">
+                                Intern, Software Application Engineering, Ganzin
+                                Technology
+                            </h3>
+                            <ul class="projects__row-content-desc">
+                                <li>
+                                    ● Built a visual-searching testing system for
+                                    detecting and evaluating visual field loss
+                                </li>
+                                <li>
+                                    ● Applied computer vision techniques to analyze
+                                    pupils’ positions measured by an eye tracker
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Exprerience 3: SYC -->
+                    <div class="projects__row">
+                        <div class="projects__row-img-cont">
+                            <img
+                                src="./assets/jpeg/project-mockup-example.jpeg"
+                                alt="Software Screenshot"
+                                class="projects__row-img"
+                                loading="lazy"
+                            />
+                        </div>
+                        <div class="projects__row-content">
+                            <h3 class="projects__row-content-title">
+                                Undergraduate Student Researcher, Media IC & System Lab,
+                                NTU
+                            </h3>
+                            <p class="projects__row-content-desc">
+                                <b>Advisor: Prof. Shao-Yi Chien</b>
+                            </p>
+                            <ul class="projects__row-content-desc">
+                                <li>
+                                    ● Deployed deep learning models on Android mobile
+                                    phones
+                                </li>
+                                <li>
+                                    ● Carried out an automatic workflow that transfer CNNs
+                                    from PyTorch to Caffe2 through ONNX
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Exprerience 4: TA -->
+                    <div class="projects__row">
+                        <div class="projects__row-img-cont">
+                            <img
+                                src="./assets/jpeg/project-mockup-example.jpeg"
+                                alt="Software Screenshot"
+                                class="projects__row-img"
+                                loading="lazy"
+                            />
+                        </div>
+                        <div class="projects__row-content">
+                            <h3 class="projects__row-content-title">
+                                Teaching Assistant, Computer-aided VLSI System Design, NTU
+                            </h3>
+
+                            <ul class="projects__row-content-desc">
+                                <li>
+                                    ● Give lectures on cell-based digital IC design flow
+                                    for 100+ students
+                                </li>
+                                <li>● Design homework and exams</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Exprerience 5: Teaching Volunteer -->
+                    <div class="projects__row">
+                        <div class="projects__row-img-cont">
+                            <img
+                                src="./assets/jpeg/project-mockup-example.jpeg"
+                                alt="Software Screenshot"
+                                class="projects__row-img"
+                                loading="lazy"
+                            />
+                        </div>
+                        <div class="projects__row-content">
+                            <h3 class="projects__row-content-title">
+                                Teaching Volunteer, Taipei Municipal Gong Guan Elementary
+                                School
+                            </h3>
+
+                            <ul class="projects__row-content-desc">
+                                <li>
+                                    ● Assisted underprivileged students in learning math
+                                    and science
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -440,8 +643,7 @@
                     <div class="main-footer__row main-footer__row-2">
                         <h4 class="heading heading-sm text-lt">I-Ting Lin</h4>
                         <p class="main-footer__short-desc">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit
-                            facilis tempora explicabo quae quod deserunt
+                            © 2022 I-Ting Lin. All Rights Reserved.
                         </p>
                     </div>
                 </div>
