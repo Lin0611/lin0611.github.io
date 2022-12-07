@@ -113,13 +113,13 @@ textarea {
 
 .heading-sec__sub {
   display: block;
-  text-align: center;
+  text-align: justify;
   color: #777;
   font-size: 2rem;
   font-weight: 500;
   max-width: 80rem;
   margin: auto;
-  line-height: 1.6; }
+  line-height: 1.6;}
   @media only screen and (max-width: 37.5em) {
     .heading-sec__sub {
       font-size: 1.8rem; } }
@@ -264,8 +264,9 @@ textarea {
         .about__content-title {
           font-size: 2.4rem; } }
     .about__content-details-para {
-      font-size: 1.8rem;
-      color: grey;
+      text-align: justify;
+      font-size: 1.9rem;
+      color: black;
       max-width: 60rem;
       line-height: 1.7;
       margin-bottom: 1rem; }
@@ -274,6 +275,11 @@ textarea {
         margin: 0 3px; }
       .about__content-details-para:last-child {
         margin-bottom: 4rem; }
+
+.honor__content {
+
+}
+
 
 .projects__row {
   display: grid;
@@ -292,6 +298,13 @@ textarea {
     margin-bottom: 0; }
   .projects__row-img-cont {
     overflow: hidden; }
+  .selfie-container{
+    justify-content: center;
+    display: flex;
+  }
+  .projects__selfie {
+      display: block;
+      object-fit: cover; }
   .projects__row-img {
     width: 100%;
     display: block;
@@ -313,8 +326,9 @@ textarea {
         .projects__row-content-title {
           font-size: 2.4rem; } }
     .projects__row-content-desc {
+      text-align: justify;
       font-size: 1.8rem;
-      color: grey;
+      color: black;
       max-width: 60rem;
       line-height: 1.7;
       margin-bottom: 3rem; }
@@ -459,7 +473,7 @@ textarea {
   .project-details__desc-para {
     font-size: 1.8rem;
     line-height: 1.7;
-    color: grey;
+    color: black;
     margin-bottom: 2rem; }
 
 .project-details__tools-used {
